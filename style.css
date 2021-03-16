@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+}
+
+.border-top {
+    border-top: 2px solid silver;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.change {
+    color: blue;
+}
+
+.another {
+    margin: 30px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+a {
+    color: #3131ae;
+}
+A:link {
+    text-decoration: none;
+}
+A:hover {
+    text-decoration: underline;}
+
+.bold {
+    font-weight: 900;
+}
+
+.main-photo {
+    width: 250px;
+    height: 380px;
+    /*float: right;*/
+}
+
+.celebrity {
+    display: flex;
+}
+
+.paragraph {
+    margin-top: 10px;
+}
+
+.content {
+    box-sizing: border-box;
+    border: 2px solid silver;
+    width: 30%;
+    font-size: 14px;
+}
+
+.name {
+    text-align: center;
+    margin: 10px;
+}
+
+ol {
+    list-style: none;
+    counter-reset: li;
+}
+
+li:before {
+    counter-increment: li;
+    content: counters(li, ".") ". ";
+}
+
+
